@@ -3,7 +3,7 @@ include "config.php";
 session_start();
 $id=$_GET['id'];
 
-$query="select * from user where id='".$id."'";
+$query="select * from register where id='".$id."'";
 $exe=mysqli_query($con,$query);
 
 while($rows=mysqli_fetch_array($exe))

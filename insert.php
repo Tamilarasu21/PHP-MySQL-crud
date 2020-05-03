@@ -22,7 +22,7 @@ if(isset($_POST['submit']))
 	elseif($password == $cpassword)
 	{
 		#query to find all
-		$query="insert into user (firstname,secondname,email,mobileno,rollno,gender,designation,skill,level,username,password) values('$firstname','$secondname','$email','$mobileno','$rollno','$gender','$designation','$skill','$level','$username','$password')";
+		$query="insert into register (firstname,secondname,email,mobileno,rollno,gender,designation,skill,level,username,password) values('$firstname','$secondname','$email','$mobileno','$rollno','$gender','$designation','$skill','$level','$username','$password')";
 
 		$execute=mysqli_query($con,$query);		#executing query
 

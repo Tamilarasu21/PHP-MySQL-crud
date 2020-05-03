@@ -11,7 +11,7 @@
 <body style="font-family: Verdana;font-size:16px;">
 <?php 
 include "config.php"; 	#connect to database
-$query="select * from user"; 	#query to select all
+$query="select * from register"; 	#query to select all data
 $exe=mysqli_query($con,$query);		#executing query
 ?>
 <div class="show-data">
@@ -68,7 +68,6 @@ while($rows=mysqli_fetch_assoc($exe))   #fetching via associative array
 	<br>
 <a href="register.php">&nbsp;<i class="fa fa-user-plus"></i>Add new user&nbsp;</a>
 </div>
-
 </div>
 <br>
 <br>

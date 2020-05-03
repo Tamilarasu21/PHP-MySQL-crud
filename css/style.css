@@ -135,43 +135,6 @@ margin-bottom: 10px;
 	background-color:#4d69e8; 
 	color:white;
 }
-.nav1
-{
-	align-content: right;
-}
-#logout
-{
-	background: black;
-	text-decoration:none;
-}
-.logout
-{
-	margin-top:0;
-	margin-left:0px;
-	padding-bottom: 100px
-	width:100px;
-	height:25px;
-	border-radius: 6px;
-	background:#a9aef5;
-	border-color: #a9aef5;
-	color:black;
-}
-.logout:hover
-{
-	background:#373c87;
-	border-color:#373c87;
-	color:white;
-}
-.logout:hover a
-{
-	color:white;
-}
-.logout a
-{
-	font-family: verdana,sans-serif;
-	text-decoration:none;
-	color:black;
-}
 .edit
 {
 	margin:100px;

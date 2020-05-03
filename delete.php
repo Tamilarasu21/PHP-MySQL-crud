@@ -4,7 +4,7 @@ include "config.php";	#database connectivity
 if(isset($_GET['id']))
 {
 	$id=$_GET['id'];
-	$query="delete from user where id='".$id."'";   #query to delete the user
+	$query="delete from register where id='".$id."'";   #query to delete the user
 
 	$exe=mysqli_query($con,$query);		#executing Query
 

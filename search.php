@@ -16,7 +16,7 @@ if(isset($_GET['search']))
 {
 	$keyword=$_GET['keyword'];
 
-	$query="select * from user where username='".$keyword."' OR id='".$keyword."'";  #query
+	$query="select * from register where username='".$keyword."' OR id='".$keyword."'";  #query
 
 	$exe=mysqli_query($con,$query);  	#executing Query
 	?>

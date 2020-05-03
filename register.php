@@ -28,7 +28,7 @@
 		<option>Proffessional</option>
 	</select></td></tr>
 	<tr><td><label>Wanna learn </label></td>
-	<td>&nbsp;<input type="checkbox" name="skill[]" id="C++" value="C++">&nbsp;<label for="C++">C++</label><br>
+	<td><input type="checkbox" name="skill[]" id="C++" value="C++">&nbsp;<label for="C++">C++</label><br>
 	<input type="checkbox" name="skill[]" id="Python" value="Python">&nbsp;<label for="Python">Python</label><br>
 	<input type="checkbox" name="skill[]" id="Java" value="Java">&nbsp;<label for="Java">Java</label><br>
 	<input type="checkbox" name="skill[]" id="PHP" value="PHP">&nbsp;<label for="PHP">PHP</label><br>
@@ -44,6 +44,5 @@
     </div></center>
 </body>
 </html>
-
 <!---################################## THAT'S ALL ############################################-->
  
