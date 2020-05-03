@@ -1,7 +1,8 @@
 # php-mysql-crud
         PHP MySQL crud
         
-               front-end : html, css, PHP <-    |    -> back-end : mysql
+               Front-end : HTML, CSS, PHP 
+               Back-end  : MySQL
       
                 ->insert
                 ->view
