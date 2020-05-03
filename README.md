@@ -1,6 +1,11 @@
 # php-mysql-crud
-        PHP - MYSQL - [CREATE ~ READ ~ UPDATE ~ DELDETE] - OPERATIONS
+        PHP MySQL crud
+        
+               front-end : html, css, PHP <-    |    -> back-end : mysql
       
-       front-end : html,css,php
-       back-end : mysql
-      
+                ->insert
+                ->view
+                ->edit
+                ->update
+                ->delete
+                ->search
